@@ -1,0 +1,25 @@
+﻿icon-edit, .icon-delete{
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    cursor: pointer;
+
+    &:hover {
+        border-radius: 50%;
+        color: #fff;
+    }
+}
+
+.icon-edit:hover {
+    background-color: #ff9913;
+}
+
+.icon-delete:hover {
+    background-color: #fe3a3a !important;
+}
+
+.icon-excel {
+    color: #28a745;
+    font-size: 14px;
+    cursor: pointer;
+}

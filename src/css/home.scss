@@ -1,0 +1,43 @@
+@import './react-grid/react-grid';
+@import './form-filter';
+@import './forms';
+@import './icons';
+@import './messages';
+@import './modal';
+@import './tables';
+@import '~bootstrap/scss/bootstrap';
+
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 13px;
+}
+
+body {
+    font-family: Tahoma,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #252525;
+    background: #f1f1f1;
+}
+
+.container-fluid {
+    padding: 15px;
+}
+
+.form-filter {
+    .form-row {
+        .form-group {
+            width: 350px;
+        }
+    }
+}
+
+.parent-level-0{
+    background-color: goldenrod !important;
+}
+
+.table-number{
+    display: flex !important;
+}

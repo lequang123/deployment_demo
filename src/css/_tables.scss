@@ -1,0 +1,17 @@
+﻿.table-title {
+    border: 1px solid #b7b7b7;
+    border-bottom-width: 0;
+    padding: 4px 5px;
+    background-color:#e8e8e8;
+    font-weight: bold;
+    color: #3b5a9a;
+}
+
+.pointer-event-none {
+    pointer-events: none;
+    color: #9a9595;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed !important;
+}
